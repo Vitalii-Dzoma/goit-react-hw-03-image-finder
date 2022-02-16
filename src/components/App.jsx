@@ -1,4 +1,7 @@
+import App1 from "./App/App1";
+
 export const App = () => {
+ 
   return (
     <div
       style={{
@@ -11,7 +14,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework template
+     <App1/>
     </div>
   );
 };
